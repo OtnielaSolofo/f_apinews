@@ -1,0 +1,35 @@
+name: f_api
+description: a project to demonstrate usage of api in flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_native_splash: ^1.2.0
+  cupertino_icons: ^1.0.2
+  introduction_screen: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/splash.png
+
+flutter_native_splash:
+  color: "#11A479"
+  image: assets/splash.png
+  android: true
+  ios: true
+  fullscreen: true
